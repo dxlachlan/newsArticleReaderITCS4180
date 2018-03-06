@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/sourceID"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="0.03"
+        android:text="@string/source_id"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sourceNAME"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/source_name"
+        android:textSize="24sp" />
+</LinearLayout>
